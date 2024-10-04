@@ -1,6 +1,7 @@
 import { useState } from "react";
 import SectionTitle from "./SectionTitle";
 import { projects } from "../resources/projects";
+import Image from 'next/image'; // Importer le composant Image
 
 function Projects() {
   const [selectedItemIndex, setSelectedItemIndex] = useState(0);
@@ -39,10 +40,11 @@ function Projects() {
           ))}
         </div>
         <div className="flex items-center justify-center gap-10 sm:flex-col">
-          <img
-            src={reversedProjects[selectedItemIndex]?.image}
+          <Image
+            src={reversedProjects[selectedItemIndex]?.image} // Chemin de l'image
             alt="img"
-            width={"300px"}
+            width={300} // Largeur de l'image
+            height={200} // Hauteur de l'image
           />
           <div className="flex flex-col gap-5 w-3/4">
             <h1 className="text-secondary text-xl">
@@ -52,7 +54,6 @@ function Projects() {
               {reversedProjects[selectedItemIndex]?.description}
             </p>
             <p className="text-white">
-              {/* Code source :{" "} */}
               {link1 && (
                 <a
                   href={link1}
