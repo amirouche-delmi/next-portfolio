@@ -2,7 +2,7 @@ import { useState } from "react";
 import SectionTitle from "./SectionTitle";
 import { experiences } from "../resources/experiences";
 
-export const Experiences = () => {
+function Experiences() {
   const [selectedItemIndex, setSelectedItemIndex] = useState(0);
   const reversedExperiences = [...experiences].reverse();
 
@@ -47,3 +47,5 @@ export const Experiences = () => {
     </div>
   );
 };
+
+export default Experiences;

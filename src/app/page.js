@@ -1,10 +1,13 @@
 "use client";
+import { useRef } from "react";
 import About from "@/components/About";
-import { Experiences } from "@/components/Experiences";
+import Contact from "@/components/Contact";
+import Experiences from "@/components/Experiences";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Intro from "@/components/Intro";
+import LeftSider from "@/components/LeftSider";
 import Projects from "@/components/Projects";
-import { useRef } from "react";
 
 export default function Home() {
   const aboutRef = useRef(null);
@@ -23,10 +26,9 @@ export default function Home() {
         <About ref={aboutRef} />
         <Experiences />
         <Projects />
-        {/* 
         <Contact />
         <Footer />
-        <LeftSider />  */}
+        <LeftSider /> 
       </div>
     </div>
   );
