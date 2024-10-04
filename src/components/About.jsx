@@ -21,7 +21,6 @@ const About = forwardRef((props, ref) => {
 
       <div className="flex w-full items-center sm:flex-col">
         <div className="h-[70vh] w-2/5 mr-5 sm:w-full sm:mr-0">
-          {/* Assurez-vous que le script Lottie est inclus dans votre projet */}
           <lottie-player
             src="https://assets4.lottiefiles.com/private_files/lf30_obidsi0t.json"
             background="transparent"
