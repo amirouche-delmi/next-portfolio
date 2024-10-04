@@ -37,13 +37,13 @@ const About = forwardRef((props, ref) => {
             Mon expertise inclut la programmation fonctionnelle (C), la
             programmation orientée objet (Java), la gestion avancée de bases de
             données (Oracle, MySQL, MongoDB), ainsi que les systèmes
-            d'exploitation et la conception de logiciels. À l'université, j'ai
+            d&apos;exploitation et la conception de logiciels. À l&apos;université, j&apos;ai
             également étudié Python et PHP.
           </p>
           <p className="text-white">
-            Mon projet de fin d'études chez Algérie Télécom, utilisant la
+            Mon projet de fin d&apos;études chez Algérie Télécom, utilisant la
             technologie MERN stack, reflète ma capacité à créer des solutions
-            logicielles modernes. Passionné par l'innovation technologique, je
+            logicielles modernes. Passionné par l&apos;innovation technologique, je
             recherche toujours à élargir mes compétences et à contribuer à des
             projets ambitieux et innovants.
           </p>
@@ -52,7 +52,7 @@ const About = forwardRef((props, ref) => {
 
       <div className="py-5">
         <h1 className="text-tertiary text-xl">
-          Voici quelques technologies avec lesquelles j'ai récemment travaillé :
+          Voici quelques technologies avec lesquelles j&apos;ai récemment travaillé :
         </h1>
         <div className="flex flex-wrap gap-10 mt-5">
           {skills.map((skill, index) => (
