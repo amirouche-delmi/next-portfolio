@@ -9,8 +9,12 @@ import Intro from "@/components/Intro";
 import LeftSider from "@/components/LeftSider";
 import Projects from "@/components/Projects";
 
-export default function Home() {
+const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+export default async function Home() {
   const aboutRef = useRef(null);
+
+  await delay(3000);
 
   const handleScrollToAbout = () => {
     if (aboutRef.current) {
@@ -28,7 +32,7 @@ export default function Home() {
         <Projects />
         <Contact />
         <Footer />
-        <LeftSider /> 
+        <LeftSider />
       </div>
     </div>
   );
