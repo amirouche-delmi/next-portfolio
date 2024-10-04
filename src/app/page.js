@@ -18,7 +18,7 @@ export default function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3000); // Délai de 3 secondes
+    }, 2000); // Délai de 3 secondes
 
     return () => clearTimeout(timer); // Nettoyage du minuteur
   }, []);
