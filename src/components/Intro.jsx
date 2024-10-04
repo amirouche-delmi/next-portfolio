@@ -6,12 +6,12 @@ function Intro({ scrollToAbout }) {
         Amirouche DELMI
       </h1>
       <h1 className="text-5xl sm:text-2xl text-white font-semibold">
-        Ingénieur en logiciel & Développeur Full Stack.
+        Ingénieur en logiciel &amp; Développeur Full Stack.
       </h1>
       <p className="text-white">
-        Diplômé d'un Master 2 en Ingénierie Logicielle de l'Université des
+        Diplômé d&#39;un Master 2 en Ingénierie Logicielle de l&#39;Université des
         Sciences et de la Technologie Houari Boumediene, spécialisé en
-        développement full stack. Mon stage de fin d'études chez Algérie Télécom
+        développement full stack. Mon stage de fin d&#39;études chez Algérie Télécom
         a été réalisé en utilisant la technologie MERN stack.
       </p>
       <button
